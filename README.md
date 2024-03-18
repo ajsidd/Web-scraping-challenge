@@ -18,7 +18,7 @@ The scraped information was stored in Python data structures, specifically a lis
 ### Code Snippet
 ```python
 # Code snippet for scraping Mars news titles and preview text
-#  news_dict = {'title': title, 'preview': preview}
+news_dict = {'title': title, 'preview': preview}
 ```
 
 ## Deliverable 2: Scrape and Analyze Mars Weather Data
@@ -44,7 +44,7 @@ The DataFrame was exported to a CSV file for future reference.
 ### Code Snippet
 ```python
 # Code snippet for scraping and analyzing Mars weather data
-# df.to_csv(file_path, index=False)
+df.to_csv(file_path, index=False)
 ```
 
 ---
